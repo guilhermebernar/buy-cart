@@ -1,13 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Carrinho de compras</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Compras</title>
 </head>
 <body>
-    <script src="index.js"></script>
+            <form class="form">
+                <h2>Listar</h2>
+                <label for="name">Produto</label>
+                <input type="text" name="name"  id="name" placeholder="Produto">
+
+                <label for="price">Preço</label>
+                <input type="text" name="price" id="price" placeholder="Preço">
+
+                <button class="btnEnviar">Listar</button>
+            </form>
+
+    <script src="./carrinho.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
